@@ -11,4 +11,9 @@ package T46;
 输入：nums = [1]
 输出：[[1]]*/
 public class mainApp {
+    public static void main(String[] args) {
+        int[] nums = {1,2,3};
+        Solution s = new Solution();
+        System.out.println(s.permute(nums).toString());
+    }
 }
